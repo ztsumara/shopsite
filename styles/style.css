@@ -1,0 +1,1746 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* -------------------------------------------------------------------- */
+:root {
+  --custom-property: #ffffff;
+  font-size: 62.5%;
+  
+}
+ol,
+ul {
+  list-style: none;
+}
+html {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  line-height: 3rem;
+  background-color: var(--custom-property);
+  text-align: left;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.two {
+}
+.three {
+  background-color: #f9f9f9;
+  height: 45.8rem;
+  margin-top: 0rem;
+}
+.four {
+}
+.button1 {
+  margin-left: 0rem;
+  margin-right: 1.5rem;
+  margin-top: 0.8rem;
+
+  background-color: var(--custom-property);
+  border: 0.1rem solid #f5f5f5;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  gap: 0.8rem;
+
+  width: 6.9rem;
+  height: 3.4rem;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+html, body { height: 100%;}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+.button2 {
+  margin: 1.5rem;
+  margin-right: 1.5rem;
+  margin-left: 0rem;
+  width: 2.4rem;
+  height: 2.4rem;
+
+  background-color: var(--custom-property);
+  border: 0.1rem solid #f5f5f5;
+}
+
+
+.info{
+  padding: 1em;
+  width: 15.8rem;
+  margin: 1rem auto;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.formsend {
+  /* Just to center the form on the page */
+  margin: auto auto;
+  width: 185px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+.labelsend {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+.done{
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #CCC;
+  stroke:#CCC;
+}
+.send{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.2rem;
+  margin: 0 auto;
+  gap: 0.8rem;
+  width:18.264rem;
+ 
+
+ 
+  margin-top: 0.5rem;
+  margin-bottom: 2.9rem;
+  /* secondary */
+  background-color: #ffffff;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+  
+
+  /* white */
+  color:#000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  
+}
+.send:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #c7c6c6;
+ 
+  transform: scale(110%);
+}
+.send:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+
+.Shop_now:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.Shop_now:active{
+  background: #c7c6c6;
+  font-size: 1.4rem;
+}
+.ShopNow1:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.ShopNow1:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.view_all0:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.view_all0:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.view_all:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.view_all:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.VisitShop:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.VisitShop:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.VisitShop1:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.VisitShop1:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.VerBut:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.VerBut:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+.VerButsr:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+  background-color: #2e2e2e;
+ 
+  transform: scale(110%);
+}
+.VerButsr:active{
+  background: #c7c6c6;
+  transform: scale(90%);
+}
+
+
+
+.pfornav:hover{
+ 
+ 
+  text-decoration:underline;
+  font-size: 1.7rem;
+}
+.pfornav:active{
+  background: #c7c6c6;
+  
+}
+.plashka_Price:hover{
+  font-weight: 700;
+  color: #000000;
+  text-decoration:underline;
+ 
+}
+.plashka_Price:active{
+  background: #c7c6c6;
+  
+}
+.footSurk:hover{
+ 
+ 
+  color:#939393;
+  
+}
+.footSurk:active{
+  background: #c7c6c6;
+  
+}
+
+::selection {
+  background-color: #F498AD;
+}
+::placeholder{
+  color:#9198e5;
+}
+.ula:hover{
+ 
+  color:#939393;
+  text-decoration:underline;
+  
+}
+.ula:active{
+  background: #c7c6c6;
+  
+}
+.foot:hover{
+ 
+  color: #939393;
+  text-decoration:underline;
+  
+}
+
+
+.readMore:hover{
+  transition-duration: 0.5s;
+  transition-property: background-color;
+ 
+  background-color: #e6e3e3;
+  transform: scale(110%);
+}
+.readMore:active{
+  background: #d3caca;
+  transform: scale(90%);
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+fieldset{
+  margin: 1em 0;
+  width: 137px;
+}
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+.pole:focus{
+  color: #ff4848;
+  background-color: #ececec;
+}
+
+
+
+
+span {
+  /* text */
+  flex: none;
+  background: #181818;
+  border-radius: 9rem;
+  width: 1.6rem;
+  height: 1.6rem;
+
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+.T_15 {
+  margin: 1.5rem 0;
+  width: 34.2rem;
+  height: 5rem;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+
+  color: #393939;
+}
+.VerButsr{
+ 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  width: min-content;
+
+  margin: 0 0;
+  margin-top: 2.6rem;
+  margin-bottom: 1.8rem;
+  margin-left: auto;
+  /* secondary */
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  display: none;
+}
+.VerBut {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  width: 34.9rem;
+  height: 4.4rem;
+
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 1.8rem;
+  /* secondary */
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.Shop_now {
+  margin: 0;
+  
+  width: 14.8rem;
+  height: 4.4rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  /* secondary */
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  width: 5.4rem;
+  height: 1.8rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  box-shadow: 10px -5px rgba(0,0,0,0.5);
+}
+
+.art {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #939393;
+}
+
+.artP {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #000000;
+  margin-left: 0rem;
+  margin-bottom: 1.8rem;
+  white-space: nowrap;
+}
+
+.plashka_Price {
+  box-sizing: border-box;
+
+/* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0.8rem 1.4rem;
+  gap: 0.8rem;
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  width: 8.9rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.art {
+  margin-top: 1.7rem;
+  margin-left: 0rem;
+  margin-bottom: 0.1rem;
+}
+
+.view_all {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  width: 34.9rem;
+  height: 4.4rem;
+
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 2.9rem;
+  /* secondary */
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.UlSteps {
+  margin-right: 1.5rem;
+  width: 34.5rem;
+  height: 295px;
+  justify-content: center;
+}
+.VisitShop {
+  margin: 0 auto;
+  margin-top: 3.4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  width: 34.5rem;
+  height: 4.4rem;
+
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.VisitShop1{
+  
+  margin: 0 auto;
+  margin-top: 3.4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  width: 34.5rem;
+  height: 4.4rem;
+
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  display: none;
+}
+.htwdg {
+  margin-top: 0rem;
+ 
+  margin-bottom: 0.4rem;
+  width: 25.4rem;
+  height: 6.2rem;
+
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.1rem;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.photo1 {
+  width: 34.5rem;
+  height: 40.7rem;
+ 
+}
+.photo2 {
+  width: 16.8rem;
+  height: 16.8rem;
+
+  
+}
+.photo3 {
+  width: 16.8rem;
+  height: 16.8rem;
+  
+}
+.photo4 {
+  width: 34.5rem;
+  height: 40.7rem;
+  
+}
+.ulp1 {
+  
+  margin-bottom: 0rem;
+  width: 11.2rem;
+  height: 2.2rem;
+  white-space: nowrap;
+
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  /* identical to box height */
+  letter-spacing: -0.03em;
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.h2vithradio {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0rem;
+  padding-right: 16px;
+
+}
+.label {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 2.3rem;
+  gap: 1.6rem;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.fon{
+    overflow-x: hidden;
+    position: absolute;
+    left: -40.957rem;
+    top: 8.5rem;
+    width: 130.7rem;
+    height: 69.89rem;
+    opacity: 13%;
+    transform: rotate(16.07deg);
+    
+}
+.fon_photo{
+  position: relative;
+  width: 300px;
+  height: 1px;
+  top: 0rem;
+  margin: 0 auto;
+  opacity: 100%;
+  
+}
+.fon_photo1{
+    position: absolute;
+    width: 22.2rem;
+    height: 39.6rem;
+    left: -3.4rem;
+    top: 2rem;
+    overflow:hidden;
+    opacity: 100%;
+    
+
+}
+.fon_photo2{
+  overflow:hidden;
+    position: absolute;
+    width: 19.2rem;
+    height: 42.4rem;
+    left: 16rem;
+    top: 2rem;
+
+    filter: drop-shadow(-1.5rem 0.4rem 3.6rem rgba(0, 0, 0, 0.25));
+}
+.fon_photo3{
+    position: absolute;
+    width: 26.8rem;
+    height: 47.6rem;
+    left: 5.4rem;
+    top: 2rem;
+    
+}
+.artimg{
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 13px;
+    width: 16.8em;
+    height: 24em;
+}
+.BALMLABS {
+   display: flex; 
+  overflow-x: hidden;
+  
+  margin-top: 2.8rem;
+  justify-content: center;
+}
+article {
+  margin: 4.5rem 1.5rem;
+  
+}
+.BestSeller {
+  margin: 1.5rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  padding: 0.4rem 0.8rem;
+  gap: 0.8rem;
+
+  width: 11.4rem;
+  height: 2.5rem;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.plashka {
+  box-sizing: border-box;
+  margin-bottom: 0.7rem;
+  
+  margin-top: 3.8rem;
+  width: 5.8rem;
+  height: 2.3rem;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0.4rem 1rem;
+  gap: 0.8rem;
+
+  width: 10rem;
+  height: 2.3rem;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.artone {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 1.4rem;
+  width: 34.5rem;
+  height: 45rem;
+}
+.imginart {
+  margin: 1.6rem;
+
+  width: 31.3rem;
+  height: 20.9rem;
+}
+.timeintart {
+  margin-bottom: 0.7rem;
+  margin-left: 1.6rem;
+  width: 7.1rem;
+  height: 1.5rem;
+
+  white-space: nowrap;
+}
+.arttwo {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 1.4rem;
+  width: 34.5rem;
+  height: 45rem;
+}
+.artthree {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 1.4rem;
+  width: 34.5rem;
+  height: 45rem;
+}
+
+.steps {
+  
+  margin-top: 2.1rem;
+  margin-bottom: 0.8rem;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0.4rem 1rem;
+  gap: 0.8rem;
+
+  width: 6.6rem;
+  height: 2.3rem;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.ulp2 {
+  /* Got to our store and choose the outfits you like */
+  
+  margin-bottom: 0rem;
+  width: 32rem;
+  height: 2.4rem;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 169.02%;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+ 
+}
+.ula {
+  /* Got to our store and choose the outfits you like */
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 169.02%;
+  /* identical to box height, or 24rem */
+
+  /* secondary */
+  color: #393939;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.arth {
+  /* Gounders Natalia Modenova and Daria Shapovalova featured in America's Greatest Disruptors list by Newsweek */
+
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+  margin-top: 0rem;
+  margin-bottom: 2.1rem;
+  width: 31.3rem;
+  height: 9.6rem;
+
+  font-weight: 60;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+.arth1 {
+  
+  margin: 1.5rem;
+  margin-left: 0rem;
+  width: max-content;
+  height: 3.9rem;
+
+  font-weight: 60;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  /* identical to box height */
+  color: transparent;
+  -webkit-background-clip: text;
+  letter-spacing: -0.03em;
+  background-image: linear-gradient(#e66465, #9198e5);
+  
+}
+
+time {
+  /* 01.05.2022 */
+  width: 7.1rem;
+  height: 1.5rem;
+
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.readMore {
+  /* btn */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+  margin-top: 0rem;
+  margin-bottom: 2.4rem;
+  width: 31.3rem;
+  height: 4.6rem;
+
+  /* tertiary */
+  border: 0.1rem solid #939393;
+  border-radius: 82rem;
+
+  /* Read more */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* secondary */
+  color: #393939;
+  white-space: nowrap;
+  text-decoration: none;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about_v {
+  /* About Verseser */
+  white-space: nowrap;
+
+  margin-top: 7.3rem;
+  width: 18.6rem;
+  height: 3.1rem;
+
+  padding-bottom: 0rem;
+  font-weight: bold;
+
+  font-size: 2.6rem;
+  line-height: 3.1rem;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+.ShopNow1 {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 4.3rem;
+  width: 34.9rem;
+  height: 4.4rem;
+
+  /* secondary */
+  background: #181818;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.lastpicture {
+  width: min-content;
+  padding: 0rem;
+}
+.about_v_photo {
+  
+  width: 30.805rem;
+  height: 30.805rem;
+  transform: rotate(-6.92deg);
+  
+  margin-bottom: 1.5rem;
+}
+.rectangle {
+  width: 30.805rem;
+  height: 30.805rem;
+  margin: 0 0;
+  margin-bottom: 3rem;
+
+  /* text */
+
+  background: #181818;
+  border-radius: 0.208139rem;
+  transform: rotate(6.92deg);
+}
+.lastp1{
+  margin: 0 auto;
+}
+.six{
+  background-color: #f9f9f9;
+}
+.about_v_p {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+
+  width: 34.5rem;
+  height: auto;
+
+  margin-top: 0rem;
+  
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 169.02%;
+  /* or 24rem */
+
+  /* secondary */
+  color: #393939;
+}
+.nav{
+  display: none;
+  margin-left: 3.7rem;
+}
+.navul{
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+.uifoot {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 1.6rem;
+}
+.uifoot1{
+  
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  padding: 0px;
+  gap: 1.6rem;
+  display: none;
+}
+.hr1 {
+  margin-top: 4.2rem;
+  margin-bottom: 2.3rem;
+
+  opacity: 0.1;
+  /* white */
+
+  border: 1px solid #ffffff;
+}
+.wrapper {
+  max-width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.photo0 {
+  margin-top: 1.5rem;
+  width: 37.5rem;
+  height: 44rem;
+}
+.hr2 {
+  margin-top: 2.3rem;
+  opacity: 0.1;
+  /* white */
+
+  border: 1px solid #ffffff;
+}
+.ConUs {
+  margin-left: 0.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+header {
+  display: flex;
+}
+.svglink {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: 0.5rem;
+
+  text-decoration: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.forfoot{
+  display: flex;
+ 
+  justify-content: space-between;
+  
+}
+.links {
+  width: 2rem;
+  height: 2rem;
+
+  text-decoration: none;
+}
+.foot {
+  color: white;
+  text-decoration: none;
+}
+.pfornav{
+  color: #0e0d0d;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.footSurk {
+  color: white;
+}
+
+.ending {
+  
+  margin-top: 2.1rem;
+  margin-left: 0.5rem;
+  padding-bottom: 2.1rem;
+  color: grey;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  white-space: nowrap;
+}
+.endin{
+  display: none;
+  
+  color: grey;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  white-space: nowrap;
+}
+.endflex{
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-right: 4.5rem;
+}
+.logo1 {
+  margin: 1.5rem;
+  margin-right:0rem;
+  margin-left: 0rem;
+  display: block;
+
+  width: 140px;
+  height: 22px;
+}
+
+.twit {
+  /* Vector */
+
+  /* tertiary */
+  background: #939393;
+}
+.WhiteInst {
+  background: #ffffff;
+}
+.svghead{
+  display: none;
+  margin-left: auto;
+  padding-top: 1.5rem;
+  margin-right: 1.7rem;
+  
+  text-decoration: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.links0{
+  display: none;
+  width: 2rem;
+  height: 2rem;
+
+  text-decoration: none;
+}
+.view_all0{
+  
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 3.9rem;
+  gap: 0.8rem;
+
+ 
+
+ 
+  margin-top: 0.5rem;
+  margin-bottom: 2.9rem;
+  /* secondary */
+  background: #393939;
+  border-radius: 8.2rem;
+
+  /* text */
+
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  /* white */
+  color: var(--custom-property);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  display: none;
+}
+.photo2flex{
+  display: flex;
+  gap: 0.9rem;
+}
+.photoflex{
+  margin: 2.2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 34.5rem;
+  gap: 1.3rem;
+  justify-content:space-between;
+}
+.artflex{
+  display: flex;
+  flex-direction: column;
+  width: 34.5rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+.stepflex{
+  margin: 1.5rem 0;
+  width: 34.5rem;
+}
+.five{
+  background-color: #f9f9f9;
+}
+.abflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+}
+.back{ 
+  
+  z-index: 0;
+  
+  height: 775.95px;
+  
+ 
+  
+}
+.links0:hover img{
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.links:hover img{
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.back::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-image: url("Main image.png");
+  background-repeat : no-repeat;
+  background-size : 1307.32px 698.95px;
+  background-position : -490.57px  -20px;
+  background-origin: border-box;
+  width: 100%;
+  height: 100%;
+  opacity: 13%;
+  z-index: -1;
+}
+.teeth{
+  display: none;
+  position: absolute;
+width: 503px;
+height: 658px;
+left: -100px;
+top: -148px;
+
+background: linear-gradient(90deg, rgba(224, 195, 252, 0.75) 0%, rgba(142, 197, 252, 0.75) 100%);
+filter: blur(187px);
+}
+.ab_v{
+  margin: 0 auto;
+}
+@media all and (min-width: 1011px) {
+  
+  .nav{
+    display: initial;
+  }
+  .button2{
+    display: none;
+  }
+  .links0{
+    display: initial;
+  }
+  .arth1{
+    margin-top: 9rem;
+  }
+  .uifoot1{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .uifoot{
+    display: none;
+  }
+  .foot{
+    height: max-content;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 169.02%;
+    
+  }
+  .ending{
+    display: none;
+  }
+  .endin{
+    display: initial;
+  }
+  .hr2{
+    margin-bottom: 0rem;
+  }
+  
+  
+  
+}
+@media all and (min-width: 1280px) {
+  .rectangle{
+    width: 592px;
+height: 592px;
+  }
+  .about_v_photo{
+    width: 592px;
+height: 592px;
+  }
+  .photo1{
+    width: 488px;
+    height: 577px;
+  }
+  .photo2{
+    width: 280px;
+    height: 280px;
+  }
+  .photo3{
+    width: 280px;
+    height: 280px;
+  }
+  .photo4{
+    width: 384px;
+    height: 577px;
+  }
+  .photo2flex{
+    flex-direction: column;
+    gap: 1.7rem;
+  }
+  .photoflex{
+    flex-direction: row;
+
+    gap: 3.2rem;
+
+    margin: 6rem 0;
+    padding: 0 0;
+    width: 121.6rem;
+  }
+  .VerBut{
+    display: none;
+  }
+  .VerButsr{
+    display: flex;
+  }
+  
+  
+}
+@media all and (min-width: 756px) {
+  
+  .form1{
+    margin-right: auto;
+    margin-left: 46.3rem;
+  }
+  .label{
+    margin-left: 0rem;
+  }
+  .artone{
+    width: auto;
+    display: flex;
+    height: min-content;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .arttwo{
+    width: auto;
+    display: flex;
+    height: min-content;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .artthree{
+    width: auto;
+    display: flex;
+    height: min-content;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .artflex{
+    width:auto;
+    gap: 1.2rem;
+  }
+  .artinfo{
+    
+    height: min-content;
+    margin: auto 0;
+  }
+  .arth{
+    width: auto;
+    height: min-content;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    letter-spacing:-0.03em;
+  }
+  .imginart{
+    max-width: 100%;
+    max-height: 100%;
+    width: 41.9rem;
+    
+  }
+  .readMore{
+    width: min-content;
+    height: min-content;
+  }
+  .about_v{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    margin: auto 0rem;
+    height: min-content;
+    width: min-content;
+  }
+  .abflex{
+    height: 70rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about_v_p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+
+  }
+  .ab_v{
+    margin: 25.4rem 1.5rem 0 0;
+  }
+  .ShopNow1{
+    width: min-content;
+    height: min-content;
+    margin: 2.7rem 1.5rem 17.4rem 0rem;
+  }
+  
+}
+@media all and (min-width: 817px) {
+  .back::before{
+    background-position: -250px -200px;
+    background-size : 1920.85px 1080.9px;
+    
+    
+  }
+  
+}
+@media all and (min-width: 1002px) {
+  
+  .fon_photo{
+    margin-right: 10.8rem;
+    margin-left: auto;
+  }
+  .fon_photo1{
+    top:-20rem;
+    left: -30.8rem;
+    width: 384px;
+    height: 683px;
+  }
+  .fon_photo2{
+    left: 2.6rem;
+    top:-20rem;
+    width: 410px;
+height: 731px;
+  }
+  .fon_photo3{
+    left: -15.4rem;
+    top:-20rem;
+    width: 462px;
+height: 821px;
+  }
+  .teeth{
+    display: initial;
+  }
+}
+
+@media all and (min-width: 884px) {
+  
+    .view_all{
+    display: none;
+  }
+  .artP{
+    font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  }
+  .artimg{
+    width: 28em;
+    height: 40em;
+  }
+  .view_all0{
+    display: initial;
+  }
+  .htwgflex{
+    display: flex;
+    padding-top: 11.6rem ;
+    justify-content: space-between;
+  }
+  .UlSteps{
+    
+    width: 45rem;
+    height: auto;
+  }
+  .stepflex{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+  }
+  .htwdg{
+    font-size: 42px;
+    line-height: 51px;
+    margin: 1.5rem 0 2.1rem 0;
+    letter-spacing: -0.03em;
+    height: auto;
+    width: 37.7rem;
+  }
+  .steps{
+    
+    margin: 1.5rem 0;
+    margin-right: 2.8rem;
+  }
+  .VisitShop1{
+    display: flex;
+    margin: 0 0;
+    width: min-content;
+    margin-bottom: 10.3rem;
+  }
+  .VisitShop{
+    display: none;
+  }
+ 
+
+}

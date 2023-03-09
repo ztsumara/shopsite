@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <header class="wrapper">
+
+        <a href="index.html"><img class="logo1" src="SVG/logo1.svg" alt="logo_verserer"></a>
+        <nav class="nav">
+            <ul class="navul">
+                <li><a class="pfornav" href="#">Shop now</a></li>
+                <li><a class="pfornav" href="#">How to wear</a></li>
+                <li><a class="pfornav" href="#">Colaboration</a></li>
+                <li><a class="pfornav" href="#">Meta News</a></li>
+                <li><a class="pfornav" href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="svghead">
+            
+            <a class="links0" href="#"><img src="SVG/inst.svg" alt="instagram">
+                </a>
+            <a class="links0" href="#"><img src="SVG/TT.svg" alt="TikTok">
+                </a>
+            <a class="links0" href="#"><img src="SVG/twit.svg" alt="twitter">
+                </a>
+            <a class="links0" href="#"><img src="SVG/pinterest.svg" alt="pinterest">
+                </a>
+            <a class="links0" href="#"><img src="SVG/discord.svg" alt="discord">
+                </a>
+        </div>
+        <button class="button1"> <img src="SVG/bin.svg" alt="bin"><span>1</span></button>
+        <button class="button2"> <img src="SVG/menu.svg" alt="menu"></button>
+       
+    
+    </header>
+        <form class="formsend " name="contact" method="POST" data-netlify="true">
+            <fieldset class="info">
+                <legend>Пользовательские данные</legend>
+                <div>
+                    <label class="labelsend">
+                        ФИО: 
+                        <input class="pole" type="text" name="name" placeholder="Иванов Иван Иванович" required>
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Дата рождения:
+                        <input class="pole" type="date" name="date" required>
+                    </label>
+                </div>
+                
+                <fieldset>
+                    <legend>Пол:</legend>
+                    <label class="labelsend">
+                    <input  type="radio" name="gender" value="Man"checked>
+                    М
+                    </label>
+                    <label class="labelsend">
+                    <input type="radio" name="gender" value="Woman"required>
+                    Ж
+                    </label>
+                </fieldset>  
+                
+                <div>
+                    <label class="labelsend">
+                        Пароль:
+                        <input class="pole" id="userPassword" type="password" name="password" placeholder="Не менее 8 символов" required minlength="8">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset class="info">
+                <legend>Контактная информация</legend>
+                <div>
+                    <label class="labelsend">
+                        Email:
+                        <input class="pole" type="email" name="email"  placeholder="email@address.com">
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Телефон:
+                        <input class="pole" type="tel" name="phone" placeholder="+7(XXX) XXX XX-XX">
+                    </label>
+                </div>
+                <div>
+                    <label class="labelsend">
+                        Удобный интервал для связи :
+                        <input class="pole" type="text" name="graphic"  placeholder="утро, день, вечер, ночь">
+                    </label>
+                </div>
+            </fieldset>
+            <div class="butsend">
+                
+                <button class="send" type="submit">Send  <img class="done" src="svg/done.svg" alt="done"></button>
+            </div>
+            <div class="butreset">
+                
+                <button class="send" type="reset">Remove form <img class="done" src="svg/Remove.svg" alt="Remove"></button>
+            </div>
+        </form>
+    <footer >
+
+        <div class="wrapper">
+            <div class="forfoot">
+                <ul class="uifoot1">
+                    
+                        <li><a class="foot" href="#">About</a></li>
+                        <li><a class="foot" href="#">How to wear</a></li>
+                        <li><a class="foot" href="#">Refund Policy</a></li>
+                        <li><a class="foot" href="#">Terms of service</a></li>
+                        <li><a class="foot" href="#">Privacy Policy</a></li>
+                        
+                </ul>
+                <img class="logo" src="SVG/logo.svg" alt="Verserer_logo">
+                <div class="svglink">
+                
+                    <a class="links" href="#"><img src="SVG/inst.svg" alt="instagram">
+                        </a>
+                    <a class="links" href="#"><img src="SVG/TT.svg" alt="TikTok">
+                        </a>
+                    <a class="links" href="#"><img src="SVG/twit.svg" alt="twitter">
+                        </a>
+                    <a class="links" href="#"><img src="SVG/pinterest.svg" alt="pinterest">
+                        </a>
+                    <a class="links" href="#"><img src="SVG/discord.svg" alt="discord">
+                        </a>
+                </div>
+            </div>
+            <ul class="uifoot">
+            <li><a class="foot" href="#">About</a></li>
+            <li><a class="foot" href="#">How to wear</a></li>
+            <li><a class="foot" href="#">Refund Policy</a></li>
+            <li><a class="foot" href="#">Terms of service</a></li>
+            <li><a class="foot" href="#">Privacy Policy</a></li>
+            </ul>
+            <hr class="hr1">
+            <div class="endflex">
+                <p class="endin">Verserer Ⓒ 2022 All Rights Reserved</p>
+                <p class="ConUs">CONTACT US <a class="footSurk" href="mailto:yaganoff2014@gmail.com">INFO@VERSERES.COM</a></p>
+            </div>
+            <hr class="hr2">
+             
+            <p class="ending">Verserer Ⓒ 2022 All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
